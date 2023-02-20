@@ -2,9 +2,25 @@
 <html>
 <head>
     <title>My GitHub Pages Site</title>
+    <style type="text/css">
+        @font-face {
+            font-family: "My Custom Font";
+            src: url(http://www.example.org/mycustomfont.ttf) format("truetype");
+        }
+
+        div.customfont {
+            font-family: "My Custom Font", Verdana, Tahoma;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello world!</h1>
-    <p>Welcome to my GitHub Pages site!</p>
+    <div class="customfont" style="text-align:center;">
+        <div>
+            <h1>Hello world!</h1>
+            <h2>Or should I say... welcome to my world!</h2>
+        </div>
+        <p>Welcome to my GitHub Pages site!</p>
+        <p>Feel free to check out my LinkedIn <a href="https://www.linkedin.com/in/sarah-j-robertson/">here</a>!</p>
+    </div>
 </body>
 </html>
